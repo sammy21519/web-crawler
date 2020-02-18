@@ -2,7 +2,6 @@
 from bs4 import BeautifulSoup
 import requests
 import time
-import xlwings as xw
 import json
 import os
 from datetime import datetime
