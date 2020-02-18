@@ -9,7 +9,7 @@ from datetime import datetime
 
 
 # return a dictionary of wanted info
-def swell_crawler (data_num):
+def web_crawler (data_num):
     
     res = requests.get("given_api_by_magicseaweed"")
     data_json=res.json()  
